@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         titleListview = (ListView) findViewById(R.id.title_list);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>()
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,new String[]{"呵呵哒"});
+        titleListview.setAdapter(adapter);
     }
 }

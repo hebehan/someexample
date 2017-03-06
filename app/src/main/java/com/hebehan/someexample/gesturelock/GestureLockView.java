@@ -125,6 +125,10 @@ public class GestureLockView extends View {
         invalidate();
     }
 
+    public void setColorFingerUp(int colorFingerUp) {
+        this.colorFingerUp = colorFingerUp;
+    }
+
     public void setmArrowDegree(int mArrowDegree) {
         this.mArrowDegree = mArrowDegree;
     }

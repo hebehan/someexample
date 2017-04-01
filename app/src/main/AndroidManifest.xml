@@ -18,6 +18,9 @@
         <activity android:name=".gesturelock.Gesturelock">
 
         </activity>
+        <activity android:name=".game2048.Game2048Activity">
+
+        </activity>
     </application>
 
 </manifest>
